@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate secure passwords with customizable options.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password Generator</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form id="passwordForm">
+            <label for="passwordLength">Password Length:</label>
+            <input type="number" id="passwordLength" min="8" max="20" value="12" oninput="updateCharCount()">
+
+            <label for="includeUppercase">
+                <input type="checkbox" id="includeUppercase" aria-labelledby="includeUppercaseLabel">
+                <span id="includeUppercaseLabel">Include Uppercase</span>
+            </label>
+
+            <label for="includeNumbers">
+                <input type="checkbox" id="includeNumbers" aria-labelledby="includeNumbersLabel">
+                <span id="includeNumbersLabel">Include Numbers</span>
+            </label>
+
+            <label for="includeSymbols">
+                <input type="checkbox" id="includeSymbols" aria-labelledby="includeSymbolsLabel">
+                <span id="includeSymbolsLabel">Include Symbols</span>
+            </label>
+
+            <div class="result" id="passwordResult" onclick="copyToClipboard()">Your secure password will appear
+                here</div>
+            <div class="copied-indicator" id="copiedIndicator">Copied to Clipboard!</div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

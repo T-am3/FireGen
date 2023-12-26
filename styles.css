@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(45deg, #2ecc71, #3498db, #e74c3c);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.726);
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ecf0f1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.726);
+}
+
+label {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #ecf0f1;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.726);
+}
+
+input[type="number"] {
+    width: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #0000007e;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.result:hover {
+    background-color: #33333352;
+}
+
+.copied-indicator {
+    display: none;
+    color: #27ae60;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
