@@ -14,7 +14,7 @@ function generatePassword() {
     let passwordLength = parseInt(lengthInput.value, 10); // Parse the value as an integer
 
     // Ensure password length is between 1 and 20
-    passwordLength = Math.max(1, Math.min(passwordLength, 20));
+    passwordLength = Math.max(1, Math.min(passwordLength, 100));
 
     lengthInput.value = passwordLength; // Update the input field value
 
