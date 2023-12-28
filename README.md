@@ -1,18 +1,19 @@
-# Password Generator
+```markdown
+# Password Generator Web Extension
 
-A web-based password generator that allows users to create secure passwords with customizable options, built using HTML, CSS, and JavaScript.
+A browser extension that brings the power of a password generator to your fingertips. Create secure passwords with customizable options directly from your browser, thanks to this extension built using HTML, CSS, and JavaScript.
 
 ## Table of Contents
 
 - [Description](#description)
 - [Features](#features)
-- [Demo](#demo)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
 ## Description
 
-This repository contains code for a web-based password generator. Users can customize password options, such as length and character types, to generate secure and unique passwords.
+This repository contains the code for a browser extension that serves as a password generator. Users can easily customize password options, such as length and character types, to generate secure and unique passwords without leaving their browser.
 
 ## Features
 
@@ -22,18 +23,27 @@ This repository contains code for a web-based password generator. Users can cust
 - **Include Symbols:** Option to include symbols in the generated password.
 - **Copy to Clipboard:** Quickly copy the generated password with a single click.
 
-## Demo
-
-You can view a live demo of the password generator [here](https://tame.wtf/Demos/Password%20Generator/).
-
-## Usage
+## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/T-am3/Password-Generator
+   git clone https://github.com/T-am3/Password-Generator-Extension
+   ```
+
+2. Open your browser and navigate to the extensions page.
+3. Enable developer mode.
+4. Click on "Load unpacked" and select the cloned repository.
+
+## Usage
+
+1. Click on the extension icon in your browser.
+2. Customize your password preferences.
+3. Click the "Generate Password" button.
+4. Copy the generated password with a single click.
 
 ## License
+
 MIT License
 
 Copyright (c) 2023 Tame
@@ -50,8 +60,9 @@ copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
