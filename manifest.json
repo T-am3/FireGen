@@ -5,7 +5,7 @@
   "description": "Save 15 seconds, by clicking a button instead of googling it!",
   "icons": {
     "48": "icon48.png",
-    "128": "icon128.png
+    "128": "icon128.png",
     "1000": "lossless.png"
   },
   "browser_action": {
