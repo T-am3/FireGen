@@ -1,4 +1,3 @@
-```markdown
 # Password Generator Web Extension
 
 A browser extension that brings the power of a password generator to your fingertips. Create secure passwords with customizable options directly from your browser, thanks to this extension built using HTML, CSS, and JavaScript.
