@@ -1,106 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
 body {
+    font-family: 'Source Code Pro', monospace;
     margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    background-color: #000;
     color: #fff;
-    text-align: center;
-    background: linear-gradient(45deg, #2ecc71, #3498db, #e74c3c);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
 }
 
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+.login-container {
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  
+  /* Replace #111 with your desired starting color and #222 with your desired ending color */
+  background: linear-gradient(to top, #111, #222);
 }
 
-.container {
-    max-width: 600px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.8);
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #ffffff;
-    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.726);
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #ecf0f1;
+.login-container h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.726);
 }
 
 label {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #ecf0f1;
-    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.726);
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 14px;
 }
 
-input[type="number"] {
-    width: 40px;
-    text-align: center;
-    margin-bottom: 10px;
+input {
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(51, 51, 51, 0.5); /* Adjust the glow color to match the input background color */
 }
+
+input:focus {
+    outline: none;
+    border-color: #00b894;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
 
 button {
-    background-color: #3498db;
-    color: #ffffff;
-    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #00b894;
+    color: white;
+    padding: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #00b894;
 }
 
-.result {
-    margin-top: 20px;
-    font-size: 1.2em;
+@media only screen and (max-width: 600px) {
+    .login-container {
+        border: none;
+        border-radius: 0;
+    }
+}
+
+/* Your existing styles... */
+
+/* Updated checkbox and label styling for better alignment */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 1em;
+    width: 1em;
+    border: 1px solid #666;
+    border-radius: 3px;
+    outline: none;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    flex-shrink: 0;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #00b894;
+    border: 1px solid #00b894;
+}
+
+label {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2; /* Adjust line height for better vertical alignment */
+}
+
+/* Updated styling for all checkboxes */
+input[type="checkbox"] + span {
+    margin-left: 8px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Updated styling for checked state of all checkboxes */
+input[type="checkbox"]:checked + span {
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    background-color: #0000007e;
-    padding: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    color: #00b894;
 }
 
-.result:hover {
-    background-color: #33333352;
+/* Center checkboxes and labels */
+label {
+    justify-content: left; /* Change to 'center' for centering horizontally */
+    text-align: left;
 }
 
-.copied-indicator {
-    display: none;
-    color: #27ae60;
-    margin-top: 5px;
-    font-size: 1.2em;
+/* Updated spacing for better alignment */
+label + label {
+    margin-top: 8px;
+}
+
+/* Updated styling for the "Include Uppercase" checkbox */
+#includeUppercase + span {
+    margin-top: -15px;
+}
+
+/* Updated styling for the "Include Numbers" checkbox */
+#includeNumbers + span {
+    margin-top: -15px;
+}
+
+/* Updated styling for the "Include Numbers" checkbox */
+#includeSymbols + span {
+    margin-top: -15px;
+}
+
+#copiedIndicator {
+    margin-top: 20px;
+    font-size: 12px;
+    color: greenyellow;
+}
+
+#passwordResult {
+    font-size: 20px;
 }
