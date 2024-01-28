@@ -36,7 +36,7 @@ You can view a live demo of the password generator [here](https://tame.wtf/Demos
 ## License
 MIT License
 
-Copyright (c) 2023 Tame
+Copyright (c) 2024 Tame
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
