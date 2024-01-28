@@ -24,14 +24,14 @@ This repository contains code for a web-based password generator. Users can cust
 
 ## Demo
 
-You can view a live demo of the password generator [here](https://tame.wtf/Demos/Password%20Generator/).
+You can view a live demo of the password generator [here](https://tame.wtf/Demos/FireGen/).
 
 ## Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/T-am3/Password-Generator
+   git clone https://github.com/T-am3/FireGen
 
 ## License
 MIT License
