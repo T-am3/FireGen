@@ -1,4 +1,4 @@
-# Password Generator
+# FireGen
 
 A web-based password generator that allows users to create secure passwords with customizable options, built using HTML, CSS, and JavaScript.
 
