@@ -1,4 +1,4 @@
-# Password Generator Web Extension
+# FireGen
 
 A browser extension that brings the power of a password generator to your fingertips. Create secure passwords with customizable options directly from your browser, thanks to this extension built using HTML, CSS, and JavaScript.
 
@@ -27,7 +27,7 @@ This repository contains the code for a browser extension that serves as a passw
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/T-am3/Password-Generator-Extension
+   git clone https://github.com/T-am3/FireGen/extension
    ```
 
 2. Open your browser and navigate to the extensions page.
@@ -45,7 +45,7 @@ This repository contains the code for a browser extension that serves as a passw
 
 MIT License
 
-Copyright (c) 2023 Tame
+Copyright (c) 2024 Tame + Pom
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
