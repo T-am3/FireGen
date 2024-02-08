@@ -45,6 +45,12 @@ git clone https://github.com/T-am3/FireGen/extension
 ```
 Open chrome://extensions and enable "developer mode". Click on "load unpacked" and point to folder from #1. Enable extension if needed.
 
+## Installation (Other Browsers)
+If Gecko based, download the latest XPI from
+```bash
+https://addons.mozilla.org/addon/firegen
+```
+If Chromium based, try replacing chrome:// from Installation (Chrome) with your web browsers name. If that doesnt work, search up how to enable devloper mode, or if nonexistent, search up how to load unsigned extensions in your preferred search engine
 ## Usage
 
 1. Click on the extension icon in your browser.
