@@ -31,8 +31,8 @@ This repository contains the code for a browser extension that serves as a passw
    ```
 
 2. Open your preferred FTP client and put the files into it. Your done!
-
-1. Download the extension: (Firefox, Web)
+## Installation (Firefox)
+1. Download the extension:
 ```bash
 https://addons.mozilla.org/addon/firegen
 ```
