@@ -27,7 +27,7 @@ This repository contains the code for a browser extension that serves as a passw
 1. Clone the repository: (web server)
 
    ```bash
-   git clone https://github.com/T-am3/FireGen/extension
+   git clone https://github.com/T-am3/FireGen/web
    ```
 
 2. Open your preferred FTP client and put the files into it. Your done!
@@ -36,7 +36,15 @@ This repository contains the code for a browser extension that serves as a passw
 ```bash
 https://addons.mozilla.org/addon/firegen
 ```
+
 And your done!
+## Installation (Chrome)
+1. Clone latest extension
+```bash
+git clone https://github.com/T-am3/FireGen/extension
+```
+Open chrome://extensions and enable "developer mode". Click on "load unpacked" and point to folder from #1. Enable extension if needed.
+
 ## Usage
 
 1. Click on the extension icon in your browser.
