@@ -24,7 +24,7 @@ This repository contains code for a web-based password generator. Users can cust
 
 ## Demo
 
-You can view a live demo of the password generator [here](https://tame.wtf/Demos/FireGen/).
+You can view a live demo of the password generator [here](https://tame.wtf/demos/firegen/).
 
 ## Usage
 
